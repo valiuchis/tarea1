@@ -23,7 +23,8 @@ public class Tareaprog {
         System.out.println(Rosh.saborProducto());
         System.out.println("El vuelto es: " + maquinaExpendedora2.calcularVuelto() + "$");
         Rosh.getVuelto();
-        
+        Rosh.getVuelto();
+        Rosh.getVuelto();
         
         //NoHayProductoException
         System.out.println("Caso 3:");
@@ -41,6 +42,7 @@ public class Tareaprog {
         Comprador Doris = new Comprador(nula,4,maquinaExpendedora4);
         Doris.compraProducto();
         System.out.println(Doris.saborProducto());
-        System.out.println("El vuelto es: " + maquinaExpendedora4.calcularVuelto() + "$");  
+        System.out.println("El vuelto es: " + maquinaExpendedora4.calcularVuelto() + "$"); 
+       
     }  
 }
