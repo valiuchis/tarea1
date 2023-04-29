@@ -31,15 +31,15 @@ public class Comprador {
         
         return producto;    
     }
-    
+     
     public void getVuelto () { 
-        MonedaCien cambio = new MonedaCien();
-        for (int i = vuelto; i >= 0; i--) {
-            vuelto = vuelto - 100;
+        for (int i = (vuelto/100); i >= 0; i--) {
+            //vuelto = vuelto - 100;
+            MonedaCien cambio = new MonedaCien();
             System.out.println("Retire su vuelto: " + cambio);
         }
     }
-     
+
     public String saborProducto () {
         return producto.ingerir();
     }
